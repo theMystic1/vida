@@ -1,7 +1,6 @@
 import { Stack } from "expo-router";
 import React from "react";
-import Login from "./(auth)/login";
-export default function RootLayout() {
+export default function Layout() {
   return (
     <Stack
       screenOptions={{
@@ -9,7 +8,7 @@ export default function RootLayout() {
       }}
     >
       <Stack.Screen
-        name="index"
+        name="main"
         options={{
           headerShown: false,
         }}
