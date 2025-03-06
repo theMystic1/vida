@@ -45,7 +45,6 @@ const styles = StyleSheet.create({
   img: {
     height: 200,
     width: 280,
-    borderRadius: "28px",
   },
   imgCt: {
     paddingHorizontal: 12,
